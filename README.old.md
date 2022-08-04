@@ -1,0 +1,2 @@
+# stud
+Resource  for telecom
