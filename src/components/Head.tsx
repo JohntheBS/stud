@@ -1,13 +1,13 @@
 import React from 'react'
-import { Box, Anchor } from "@mantine/core";
+import { Box, Anchor, Container } from "@mantine/core";
 import { Link } from "react-router-dom"
 import { IconButton } from '@mui/material';
 import { FaFacebook, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa"
 const Head = () => {
     return (
         <>
-            <Box component={'nav'} className="px-12">
-                <Box className='flex justify-between items-center flex-nowrap'>
+            <Box component={'nav'} className="px-2">
+                <Container className='flex justify-between items-center flex-nowrap'>
                     <Box>
                         <Link to="/" className='text-xl font-bold'>
                             <span className='text-5xl font-extrabold'>T</span>ELEK
@@ -41,7 +41,7 @@ const Head = () => {
 
                         </ul>
                     </Box>
-                </Box>
+                </Container>
             </Box>
         </>
     )
