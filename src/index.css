@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 @layer components{
-  
+  *{
+    @apply transition-all;
+  }
+  body{
+    @apply bg-blue-50;
+  }
 }

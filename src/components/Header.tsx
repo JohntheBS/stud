@@ -3,10 +3,10 @@ import Head from './Head';
 import Navbar from './Navbar';
 const Header = () => {
     return (
-        <>
+        <div className='bg-white'>
            <Head />
            <Navbar />
-        </>
+        </div>
     )
 }
 
