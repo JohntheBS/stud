@@ -1,8 +1,7 @@
-import React from 'react'
-import { Box, Anchor, Container, Input, Tooltip } from "@mantine/core";
+import { Box, Anchor, Input, Tooltip } from "@mantine/core";
 import { Link } from "react-router-dom"
-// import logo from "../images/logo.jpg";
 import { FaFacebookF, FaQuestion, FaSearch, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa"
+
 const Head = () => {
     return (
         <>
@@ -19,9 +18,9 @@ const Head = () => {
                             icon={<FaQuestion size={16} />}
                             placeholder="Search Here ..."
                             radius={50}
-                            className="hidden sm:block sm:w-[250px] md:w-[350px]"
+                            className="hidden sm:block sm:w-[250px] md:w-[350px] lg:w-[450px]"
                             rightSection={
-                                <Tooltip label="This is public" position="top-end" withArrow>
+                                <Tooltip label="Search" position="top-end" withArrow>
                                     <div>
                                         <FaSearch size={18} style={{ display: 'block', opacity: 0.5 }} />
                                     </div>
