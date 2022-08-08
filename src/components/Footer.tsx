@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <Box className='text-sm bg-blue-500 text-white'>
-            <Box component='footer' className='flex p-5  flex-wrap justify-evenly'>
-                <Box className='hidden md:block p-2 sm:p-8'>
+            <Box component='footer' className='grid sm:flex p-5  flex-wrap justify-evenly'>
+                <Box className='hidden lg:block p-2 sm:p-8'>
                     <Link to="/" className='text-xl font-bold'>
                         <div className='first-letter:text-blue-700  first-letter:text-3xl leading-[0.0rem]'>Thinkers<br /><span className='text-xs italic'>together as one</span></div>
                     </Link>

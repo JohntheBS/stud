@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import Courses from './pages/Courses';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Profile from './pages/Profile';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route index element={<Signup />} />
           <Route path='/signup/login' element={<Login />}/>
         </Route>
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
