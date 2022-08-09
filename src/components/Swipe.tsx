@@ -9,7 +9,7 @@ import "../styles.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-import { Box, Button } from "@mantine/core";
+import { Box} from "@mantine/core";
 
 export default function Swipe() {
   const pic = require('../assets/images/pic.jpg');

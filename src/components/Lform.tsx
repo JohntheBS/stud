@@ -13,6 +13,7 @@ const Lform = () => {
         const Email = e.target.email.value;
         const Password = e.target.password.value;
         if(Email === user.email && Password === user.password){
+            localStorage.setItem('state','true')
            navigate("/profile");
         }
     }

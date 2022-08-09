@@ -1,10 +1,11 @@
 import { Anchor, Box, Button, Input } from '@mantine/core'
 import React from 'react'
 import { FaCaretRight, FaEnvelope, FaFacebookF, FaGooglePlusG, FaLock, FaTwitter, FaUser } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Sform = () => {
     
+    const navigate = useNavigate();
     const onSubmit = (e:any)=>{
         e.preventDefault();
         const U_name = e.target.name.value;
@@ -15,6 +16,8 @@ const Sform = () => {
         localStorage.setItem('user_name',U_name);
         localStorage.setItem('user_emai',U_email);
         localStorage.setItem('user_password',U_password);
+        localStorage.setItem('state',"true");
+        navigate("/profile")
     }
 
     return (
@@ -50,9 +53,9 @@ const Sform = () => {
                     <Input type={'email'} icon={<FaEnvelope />} placeholder={"Email"} required name='email' />
                     <Input type={'password'} icon={<FaLock />} placeholder={"Password"} required name='password' />
                     <div className='flex items-center gap-2'>
-                        <input type="checkbox" required name='check' /><a href='' className='text-sm hover:text-blue-500 hover:underline' >I agree to the therms and conditions</a>
+                        <input type="checkbox" required name='check' /><Link to="/termsandconditions" className='text-sm hover:text-blue-500 hover:underline' >I agree to the therms and conditions</Link>
                     </div>
-                    <input type={'submit'} value="SIGN UP" className='text-white bg-gradient-to-r from-blue-700 to-blue-500 py-2 px-6 rounded-3xl' />
+                    <input type={'submit'} value="SIGN UP" className='text-white bg-gradient-to-r cursor-pointer from-blue-700 to-blue-500 py-2 px-6 rounded-3xl' />
                 </Box>
             </Box>
         </>
