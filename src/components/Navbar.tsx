@@ -9,8 +9,8 @@ const Navbar = () => {
     const location = useLocation();
     const [opened, setOpened] = useState(false);
     return (
-        <>
-            <Box component='nav' className='flex justify-between items-center shadow-xl md:px-10 px-4 w-full py-2'>
+        <div >
+            <Box component='nav' className='flex justify-between items-center shadow-xl md:px-10 px-4 w-full py-2 '>
                 <Box className=' font-semibold hidden md:flex'>
                     <NavLink className='hover:text-blue-500 font-semibold' label="HOME" component={Link} to="/" active={location.pathname === "/"} />
                     <NavLink className='hover:text-blue-500 font-semibold' label="COURSES" component={Link} to="/courses" active={location.pathname === "/courses"} />
@@ -36,7 +36,7 @@ const Navbar = () => {
                     </Button>
                 </Link>
             </Box>
-        </>
+        </div>
     )
 }
 
