@@ -11,7 +11,7 @@ const Homepage = () => {
                         <div className="bg-[url('./assets/images/1.jpg')] w-10 rounded-full h-10 lg:h-16 lg:w-16 bg-center bg-cover" ></div>
                         <div className="bg-[url('./assets/images/2.jpg')] w-10 rounded-full h-10 lg:h-16 lg:w-16 bg-center bg-cover ml-[-5px]" ></div>
                         <div className="bg-[url('./assets/images/3.jpg')] w-10 rounded-full h-10 lg:h-16 lg:w-16 bg-center bg-cover ml-[-5px]" ></div>
-                        <p className="text-center text-lg py-4">are all benefitimg from our <span className="text-blue-500">1000 books and resourses</span></p>
+                        <p className="text-center sm:py-0 text-lg lg:py-4">are all benefitimg from our <span className="text-blue-500">1000 books and resourses</span></p>
                     </div>
                     <button><Link className="bg-blue-500 p-2 text-md md:text-lg lg:p-8 lg:text-xl font-bold block border-2 rounded-md uppercase border-blue-500 hover:bg-gray-900" to={"/"}>start learning</Link></button>
 
