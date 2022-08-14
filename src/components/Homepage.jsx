@@ -20,28 +20,28 @@ const Homepage = () => {
             <div className="next my-4">
                 <h1 className="text-2xl text-center mb-4 text-black">Demo Courses</h1>
                 <div className="courses  grid grid-cols-4 lg:grid-cols-4 gap-4 sm:grid sm:grid-cols-2  justify-center">
-                    <div className="h-[410px] w-max-[300px]  shadow-md shadow-black text-gray-900 bg-white ">
-                        <div className="bg-white  h-[60%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
-                        <h1 className=" text-lg  capitalize text-center">ip phone configs</h1>
+                    <div className="h-[410px] w-max-[300px] sm:w-200px  shadow-md shadow-black text-gray-900 bg-white ">
+                        <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
+                        <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
                         <h1>name:The boy</h1>
                         <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
-                    <div className="h-[410px] w-max-[300px]  shadow-md shadow-black text-gray-900 bg-white ">
-                        <div className="bg-white  h-[60%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
-                        <h1 className=" text-lg  capitalize text-center">ip phone configs</h1>
+                    <div className="h-[410px] w-max-[300px] sm:w-200px  shadow-md shadow-black text-gray-900 bg-white ">
+                        <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
+                        <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
                         <h1>name:The boy</h1>
                         <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
                 
-                    <div className="h-[410px] w-max-[300px]  shadow-md shadow-black text-gray-900 bg-white ">
-                        <div className="bg-white  h-[60%] bg-center bg-cover bg-[url('./assets/images/pic2.jpg')]"></div>
-                        <h1 className=" text-lg  capitalize text-center">Private network using MSAN</h1>
+                    <div className="h-[410px] w-max-[300px] sm:w-200px  shadow-md shadow-black text-gray-900 bg-white ">
+                        <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic2.jpg')]"></div>
+                        <h1 className=" text-lg sm:text-md  capitalize text-center">Private network using MSAN</h1>
                         <h1>name:John</h1>
                         <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
-                    <div className="h-[410px] w-max-[300px]  shadow-md shadow-black text-gray-900 bg-white ">
-                        <div className="bg-white  h-[60%] bg-center bg-cover bg-[url('./assets/images/pic4.jpg')]"></div>
-                        <h1 className=" text-lg  capitalize text-center">ip phone configs</h1>
+                    <div className="h-[410px] w-max-[300px] sm:w-200px  shadow-md shadow-black text-gray-900 bg-white ">
+                        <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic4.jpg')]"></div>
+                        <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
                         <h1>name:Emmanuel</h1>
                         <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
