@@ -24,26 +24,26 @@ const Homepage = () => {
                         <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
                         <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
                         <h1>name:The boy</h1>
-                        <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
+                        <h1 className="font-thin text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
                     <div className="h-[410px]   shadow-md shadow-black text-gray-900 bg-white ">
                         <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
                         <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
                         <h1>name:The boy</h1>
-                        <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
+                        <h1 className="font-thin text-sm lg:xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
                 
                     <div className="h-[410px]   shadow-md shadow-black text-gray-900 bg-white ">
                         <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic2.jpg')]"></div>
                         <h1 className=" text-lg sm:text-md  capitalize text-center">Private network using MSAN</h1>
                         <h1>name:John</h1>
-                        <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
+                        <h1 className="font-thin text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
                     <div className="h-[410px]   shadow-md shadow-black text-gray-900 bg-white ">
                         <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic4.jpg')]"></div>
                         <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
                         <h1>name:Emmanuel</h1>
-                        <h1 className="font-thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
+                        <h1 className="font-thin text-sm lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum beatae officia commodi repellendus voluptate totam inventore in placeat facilis dolores, minus reprehenderit incidunt dolor atque ad. Aliquid cumque ut nihil.</h1>
                     </div>
                 </div>
                 <button className="bg-blue-500 p-2 text-xl font-bold block border-2 rounded-md uppercase border-blue-500 ml-auto mr-[10%] my-4 hover:bg-gray-900 ">Learn more</button>
