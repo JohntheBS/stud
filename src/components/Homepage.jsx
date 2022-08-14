@@ -19,7 +19,7 @@ const Homepage = () => {
             </div>
             <div className="next my-4">
                 <h1 className="text-2xl text-center mb-4 text-black">Demo Courses</h1>
-                <div className="courses  grid grid-cols-4 lg:grid-cols-4 gap-4 sm:grid sm:grid-cols-2 md:grid-cols-3 justify-center">
+                <div className="courses  grid grid-cols-2 lg:grid-cols-4 gap-4 sm:grid sm:grid-cols-2 md:grid-cols-3 justify-center">
                     <div className="h-[410px]   shadow-md shadow-black text-gray-900 bg-white ">
                         <div className="bg-white  h-[40%] bg-center bg-cover bg-[url('./assets/images/pic.jpg')]"></div>
                         <h1 className=" text-lg sm:text-md  capitalize text-center">ip phone configs</h1>
