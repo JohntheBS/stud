@@ -1,13 +1,13 @@
 import React from 'react'
 import Contactform from '../components/Contactform'
-import Swipe from '../components/Swipe'
+import Newsletter from '../components/Newsletter'
 import Team from '../components/Team'
 
 const Contact = () => {
   return (
     <>
-      <Swipe />
       <Contactform />
+      <Newsletter />
       <Team />
     </>
   )

@@ -4,8 +4,10 @@ import Navbar from './Navbar';
 const Header = () => {
     return (
         <div className='bg-white'>
-           <Head />
-           <Navbar />
+            <Head />
+            <div className='top-0 sticky'>
+                <Navbar />
+            </div>
         </div>
     )
 }

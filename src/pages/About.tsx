@@ -1,6 +1,7 @@
-import { Box, Button, Container} from '@mantine/core';
+import { Box, Button, Container } from '@mantine/core';
 import React from 'react';
 import { FaTwitter } from 'react-icons/fa';
+import Benefit from '../components/Benefit';
 
 const About = () => {
 
@@ -8,7 +9,6 @@ const About = () => {
   return (
     <div>
       <Box component='section' className='my-4 '>
-      <h1 className='mx-auto text-xl sm:text-3xl font-bold border-b-2 sm:border-b-4  w-40  border-blue-500 pb-3 mb-6 text-center'>About Us</h1>
         <Box className='relative h-[350px] sm:h-[450px]'>
           <div className='h-full w-full bg-black/60 absolute text-center text-white flex flex-col justify-end items-center pb-24'>
             <h1 className='capitalize text-xl sm:text-4xl font-semibold'>Promoting The Growth of  Telecommunication</h1>
@@ -20,8 +20,7 @@ const About = () => {
           <img src={imhUrl} alt="cover" className='w-full object-cover h-full' />
         </Box>
         <Container className='text-center text-sm'>
-          
-
+          <h1 className='mx-auto text-xl sm:text-3xl font-bold text-blue-500   w-40   pb-3 mb-6 text-center pt-5 uppercase'>About Us</h1>
           <p className='m-2 sm:m-4 md:m-8 font-mono leading-7'>At Thinkers. we all come to work every day bacause we want to solve problems faced by telecommunication student.
             <span className='font-extrabold'>Everyone is guessing.</span>Students don't know which resources to study,How to stufy them or even at which point to study them
             <span className='font-extrabold'> Futher more.</span> they don't know where to target their studies,How to reach them or even how much the need to spend in order to do so.
@@ -31,6 +30,7 @@ const About = () => {
             We want make our platform accessible to many people as possible {"(not just in our country)"}</p>
         </Container>
       </Box>
+      <Benefit /> 
     </div>
   )
 }

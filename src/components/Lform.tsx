@@ -1,5 +1,4 @@
 import { Anchor, Box, Button, Input } from '@mantine/core'
-import React from 'react'
 import { FaCaretRight, FaEnvelope, FaFacebookF, FaGooglePlusG, FaLock, FaTwitter} from 'react-icons/fa'
 import { Link, useNavigate } from 'react-router-dom'
 
@@ -15,6 +14,8 @@ const Lform = () => {
         if(Email === user.email && Password === user.password){
             localStorage.setItem('state','true')
            navigate("/profile");
+        }else{
+            alert("error");
         }
     }
     
@@ -41,7 +42,7 @@ const Lform = () => {
                     
                     <Input type={'email'} icon={<FaEnvelope />} placeholder={"Email"} required name='email'/>
                     <Input type={'password'} icon={<FaLock />} placeholder={"Password"} required name='password'/>
-                    <input type={'submit'} value="SIGN IN" className='text-white bg-gradient-to-r from-blue-700 to-blue-500 py-2 px-6 rounded-3xl' />
+                    <input type={'submit'} value="SIGN IN" className='cursor-pointer text-white bg-gradient-to-r from-blue-700 to-blue-500 py-2 px-6 rounded-3xl' />
                 </Box>
                 <Box className='bg-gradient-to-r from-blue-800 to-blue-500  h-full text-white text-center w-[40%] p-5 flex-col items-center justify-center gap-10 hidden sm:flex '>
                     <h1 className='text-3xl font-bold'>Hello,Friend!</h1>

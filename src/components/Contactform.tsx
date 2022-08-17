@@ -1,35 +1,44 @@
 import { Box, Container, Input, Textarea } from '@mantine/core'
 import React from 'react'
-import { FaMailBulk, FaPhone } from 'react-icons/fa'
 
 const Contactform = () => {
+    const image = require('../assets/images/location.PNG');
     return (
         <>
-            <Box component='section' className='my-4 bg-blue-500 text-white p-4'>
-                <h1 className='text-center font-bold p-4 text-lg sm:text-4xl'>Message Us</h1>
-                <Box className='grid md:grid-cols-2  justify-evenly gap-5 items-center flex-wrap'>
-                    <Box component='form' className='flex flex-col justify-center items-center text-center'>
-                        <Container className='grid justify-center items-center gap-4'>
-                            <div className='text-center'><FaPhone className='h-8 w-8 mx-auto' /></div>
-                            <p className='font-semibold'>talk to us</p>
-                            <p>Interested in Thinkers group ? just pick up the phone to chat with a member of our team</p>
-                            <div>+237 657 443 611</div>
-                            <p>view all globals numbers</p>
-                        </Container>
+            <Box component='section' className='my-10'>
+                <Container className='grid grid-cols-1 md:grid-cols-2 bg-white shadow-md gap-5 px-0'>
+                    <Box>
+                        <img src={image} alt="location" className='h-full w-full object-fill' />
                     </Box>
-                    <Box component='form'>
-                        <Container className='grid justify-center items-center gap-4 '>
-                            <div><FaMailBulk className='h-10 w-10 mx-auto' /></div>
-                            <div className='flex gap-6'>
-                                <Input placeholder='First Name' type={'text'} className="" />
-                                <Input placeholder='Last  Name' type={'text'} className="" />
+                    <Box className='grid gap-5 p-10 py-16'>
+                        <h1 className='text-xl font-bold'>Contact us</h1>
+                        <p>We are open for any suggestion or just to have chat</p>
+                        <div className='grid grid-cols-3 gap-2 text-sm items-center justify-evenly'>
+                            <div className='text-justify'>
+                                <h1 className='font-bold'>ADDRESS:</h1>
+                                <p className=''>Molyko,Buea,Cameroon</p>
                             </div>
-                            <Input type={'email'} placeholder="Email" required className='w-full' />
-                            <Textarea className='w-full' placeholder='Type message Here....' />
-                            <input type={"submit"} placeholder="SEND" className='text-white bg-gradient-to-r from-blue-800 to-blue-400 p-2 rounded-3xl mx-auto w-[180px]' />
-                        </Container>
+                            <div>
+                                <h1 className='font-bold'>EMAIL:</h1>
+                                <p>thinkers@gmail.com</p>
+                            </div>
+                            <div>
+                                <h1 className='font-bold'>PHONE:</h1>
+                                <p>+237 657 443 611</p>
+                            </div>
+                        </div>
+                        <Box component='form' className='grid gap-4'>
+                            <div className='grid grid-cols-2 gap-4'>
+                                <Input type={"text"} placeholder="Name" radius={"xs"} />
+                                <Input type={"email"} placeholder="Email" radius={"xs"} />
+                            </div>
+                            <Input type={"text"} placeholder="Subject" radius={"xs"} />
+                            <Textarea placeholder='Create a message Here....' cols={5}></Textarea>
+                            <input type="submit" value='SEND MESSAGE' className='text-white bg-blue-500 w-40 text-sm p-2 mt-4' />
+                        </Box>
+
                     </Box>
-                </Box>
+                </Container>
             </Box>
         </>
     )

@@ -1,9 +1,18 @@
-import React from 'react'
+import Books from '../components/Books'
+import Courselist from '../components/Courselist'
+import Recap from '../components/Recap'
+import Swipe from '../components/Swipe'
 
 const Courses = () => {
   return (
-    <div>Courses</div>
-  )
+    <>
+      <Swipe />
+      <Books />
+      <Recap />
+      <Courselist />
+    </>
+
+  )   
 }
 
 export default Courses
