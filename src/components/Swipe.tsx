@@ -43,7 +43,7 @@ export default function Swipe() {
               <Box className='h-[350px] sm:h-[450px]  md:grid grid-cols-2 gap-5 hidden
               '>
 
-                <img src={pic} className="p-4 rounded-xl h-[400px] w-full object-cover" />
+                <img src={pic} alt="cover" className="p-4 rounded-xl h-[400px] w-full object-cover" />
                 <div className="py-6 px-2 grid">
                   <h1 className="text-3xl font-bold mt-16">Course Title</h1>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, odio vel. Quae dicta libero nisi fugit culpa sunt, minima, doloremque molestiae excepturi, adipisci explicabo corrupti nam accusantium quidem deserunt quibusdam?

@@ -1,6 +1,4 @@
 import { Box, Input } from '@mantine/core'
-import React from 'react'
-import { FaTelegramPlane } from 'react-icons/fa'
 
 const Newsletter = () => {
   return (

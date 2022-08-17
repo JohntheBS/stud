@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import { FaFacebookF, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa"
 
 const Head = () => {
-    const logo = require("../assets/images/logo.jpg");
     return (
         <>
             <Box component={'nav'} className="px-2 md:px-10 py-1">
