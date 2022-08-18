@@ -1,5 +1,6 @@
 import { Box } from '@mantine/core'
 import React from 'react'
+import { FaQuoteRight } from 'react-icons/fa';
 
 const Testomonial = () => {
     const image = require("../assets/images/pic.jpg");
@@ -16,7 +17,7 @@ const Testomonial = () => {
                                 <div className='flex items-center gap-2'>
                                     <div className='rounded-full relative h-16 w-16'>
                                         <img src={image} alt="pic" className='absolute rounded-full h-full w-full' />
-                                        <div className='absolute z-10 bg-blue-500 text-white  h-6 w-6  -right-2 rounded-full font-serif text-center text-5xl '><p>,,</p></div>
+                                        <div className='absolute z-10 bg-blue-500 text-white  h-6 w-6  -right-2 rounded-full font-serif text-center text-5xl flex items-center justify-center p-1'><FaQuoteRight /></div>
                                     </div>
                                     <div className='font-semibold'>
                                         <h1>ROGER SCOTT</h1>
