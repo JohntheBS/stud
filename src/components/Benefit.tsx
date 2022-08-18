@@ -47,7 +47,7 @@ const Benefit = () => {
                         {benefits.map(benefit => {
                             return (
                                 <div key={benefit.id} className=' hover:bg-blue-500 text-gray-700 hover:text-white rounded-md shadow-sm bg-white  px-6 py-4 '>
-                                    <div className='flex items-center gap-4'>
+                                    <div className='grid md:flex items-center gap-4'>
                                         <p>{benefit.icon}</p>
                                         <div className='grid gap-1'>
                                             <h1 className='font-bold'>{benefit.title}</h1>

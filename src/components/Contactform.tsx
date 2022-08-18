@@ -13,7 +13,7 @@ const Contactform = () => {
                     <Box className='grid gap-5 p-10 py-16'>
                         <h1 className='text-xl font-bold'>Contact us</h1>
                         <p>We are open for any suggestion or just to have chat</p>
-                        <div className='grid grid-cols-3 gap-2 text-sm items-center justify-evenly'>
+                        <div className='flex flex-wrap gap-2 text-sm items-center justify-evenly'>
                             <div className='text-justify'>
                                 <h1 className='font-bold'>ADDRESS:</h1>
                                 <p className=''>Molyko,Buea,Cameroon</p>

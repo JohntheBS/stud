@@ -4,21 +4,26 @@ import { FaFacebookF, FaGooglePlusG, FaLinkedinIn, FaTwitter } from 'react-icons
 
 const Team = () => {
   const image = require("../assets/images/team1.jpg")
+  const image2 = require("../assets/images/team2.jpg")
+  const image3 = require("../assets/images/team3.jpg")
   let teams = [
     {
       id:1,
       name:"Youkep Tchinde",
-      role:"Dvelopper and lead instructor"
+      role:"Dvelopper and lead instructor",
+      image:image
     },
     {
       id:2,
-      name:"Youkep Tchinde",
-      role:"Dvelopper and lead instructor"
+      name:"Hedde Ebong",
+      role:"Dvelopper and lead instructor",
+      image:image2
     },
     {
       id:3,
-      name:"Youkep Tchinde",
-      role:"Dvelopper and lead instructor"
+      name:"Emmanuel",
+      role:"Dvelopper and lead instructor",
+      image:image3
     },
   ]
 
@@ -37,7 +42,7 @@ const Team = () => {
 
               <Box className='bg-white h-96 w-72 shadow-sm hover:scale-110 my-8' key={member.id}>
                 <div className='relative h-[70%]'>
-                  <img src={image} alt="work" className='absolute h-[100%] w-[100%] object-cover object-center' />
+                  <img src={member.image} alt="work" className='absolute h-[100%] w-[100%] object-cover' />
                   <div className='hover:bg-blue-500/20 h-[100%] w-[100%] absolute py-10 p-4' >
                     <ul className="flex flex-col gap-4 ">
                       <Anchor className='h-8 w-8 bg-black hover:bg-blue-500 text-white rounded-full flex justify-center items-center'>
